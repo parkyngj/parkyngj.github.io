@@ -24,6 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,7 +76,7 @@
                 <h1 id="homeHeading">Sally Park</h1>
                 <hr>
                 <!-- <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p> -->
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Engineer | Musician | Gamer</a>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Engineer | Musician | Teacher</a>
             </div>
         </div>
     </header>
@@ -84,10 +85,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">Hi, I'm Sally</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded">I'm a full-stack engineer with a background in math. I studied pure math at UC Berkeley    where I was inspired by my work in differential equations to turn to programming. Nowadays, I'm creating applications that help people discover and connect with each other.<br><br>
+
+                    I am particularly interested in getting involved with software development related to social networking, media streaming, and education.<br><br>
+
+                    When I'm not coding, you can find me jamming out on ukelele, rabbitholing on Wikipedia, or going 12-0 on Hearthstone.</p>
+                    <a href="Young Ju Park Resume.pdf" class="page-scroll btn btn-default btn-xl sr-button">Résumé</a>
                 </div>
             </div>
         </div>
@@ -97,7 +102,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Technical Skills</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -106,85 +111,105 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
+                        <h3>Front-End</h3>
+                        <p class="text-muted">HTML5, CSS3, jQuery, SASS, Bootstrap, Haml</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <i class="fa fa-4x fa-cogs text-primary sr-icons"></i>
+                        <h3>Back-End</h3>
+                        <p class="text-muted">Ruby, Python, Node, WebSockets, Rails, Sinatra</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <i class="fa fa-4x fa-database text-primary sr-icons"></i>
+                        <h3>Databases</h3>
+                        <p class="text-muted">PostgreSQL, SQLite3, MySQL, Oracle, ActiveRecord</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <i class="fa fa-4x fa-check-square-o text-primary sr-icons"></i>
+                        <h3>Test-Driven Development</h3>
+                        <p class="text-muted">RSpec, Rails Test Unit, Capybara (Selenium), Jasmine</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
+    <aside class="bg-dark" id="portfolio">
+      <div class="container text-center">
+        <div class="call-to-action">
+          <h2>Projects</h2>
+          <a href="http://www.github.com/parkyngj" class="btn btn-default btn-xl sr-button"><i class="fa fa-3x fa-github"></i></a>
+        </div>
+      </div>
+    </aside>
+
+    <section class="no-padding">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <!-- <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box"> -->
+                    <a href="http://www.github.com/parkyngj/humanize" class="portfolio-box" target="_blank">
+                        <img src="img/portfolio/thumbnails/humanize-thumbnail.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                  Humanize
+                                </div>
+                                <div class="project-description text-faded">
+                                  Organize empathy sessions and visualize aggregated data of results
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    <!-- <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box"> -->
+                    <a href="http://www.github.com/parkyngj/plzhalp" class="portfolio-box" target="_blank">
+                        <img src="img/portfolio/thumbnails/plzhalp-thumbnail.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                  PlzHalp
+                                </div>
+                                <div class="project-description text-faded">
+                                  Schedule one-on-one tutoring sessions between DBC mentors and students
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                    <!-- <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box"> -->
+                    <a href="http://www.github.com/parkyngj/mapjamz" class="portfolio-box" target="_blank">
+                        <img src="img/portfolio/thumbnails/mapjamz-thumbnail.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                  MapJamz
+                                </div>
+                                <div class="project-description text-faded">
+                                  Discover new music by finding top tracks by country
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <!-- <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -228,35 +253,31 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
-            </div>
-        </div>
-    </aside>
 
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                <div class="col-lg-9 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Connect</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p></p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+                <div class="col-lg-3 col-lg-offset-2 text-center">
+                  <i class="fa fa-envelope-square fa-3x sr-contact"></i>
+                  <p><a href="mailto:parkyngj@gmail.com">parkyngj@gmail.com</a></p>
                 </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                <div class="col-lg-3 text-center">
+                    <i class="fa fa-phone-square fa-3x sr-contact"></i>
+                    <p>(202) 731-0710</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <i class="fa fa-linkedin-square fa-3x sr-contact"></i>
+                    <p><a href="http://www.linkedin.com/in/parkyngj">parkyngj</a></p>
                 </div>
             </div>
         </div>
@@ -274,7 +295,7 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+    <script src="js/creative.js"></script>
 
 </body>
 
